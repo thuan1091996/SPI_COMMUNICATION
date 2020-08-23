@@ -1,0 +1,22 @@
+RAM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+
+EEPROM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+
+Register Allocation
+Variable                                                                          Register  Size
+------------------------------------------------------------------------------------------------
+Data_Master                                                                       R5           1
+Data_Slave                                                                        R4           1
+
+FLASH Allocation [words]
+Function                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+spi_isr                                                                           0x00044      4
+main                                                                              0x00048     14
+SPI_Master_Init                                                                   0x00056      5
+Check_SW                                                                          0x0005B      7
+SPI_Master_Transfer                                                               0x00062      8
